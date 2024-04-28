@@ -18,10 +18,7 @@ async function loadCommands(client) {
                 return map.set(command.subCommandGroup, command);
             }
             if(command.subCommand) {
-                const i = client.subCommands.set(command.subCommand, command);
-                // console.log( i);
-                
-                return  i;
+                return client.subCommands.set(command.subCommand, command);
             }
 
         

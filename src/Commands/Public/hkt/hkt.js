@@ -53,7 +53,4 @@ module.exports = {
     .addSubcommand((options) => options
     .setName("ping")
     .setDescription("Respond client and api latency"))
-    .addSubcommand((options) => options
-    .setName("test")
-    .setDescription("Respond test and test latency"))
 }
